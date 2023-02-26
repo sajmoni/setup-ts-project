@@ -1,6 +1,6 @@
-# create-ts-project
+# setup-ts-project
 
-> Setup everything you need for a web / node project
+> Setup everything you need for a TypeScript project
 
 ## :sparkles: Features
 
@@ -9,5 +9,15 @@
  - `add-typescript`
  - Adds a simple readme
  - Adds test (maybe...)
+ - Adds eslint (maybe...)
  - Creates initial commit
  
+## Usage
+
+First create a repository on Github and clone it
+
+Then run:
+
+```sh
+npx setup-ts-project@latest
+```
