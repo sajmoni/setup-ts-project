@@ -8,6 +8,7 @@
  - `add-prettier`
  - `add-typescript`
  - Adds a simple readme
+ - Adds a gitignore
  - Adds test (maybe...)
  - Adds eslint (maybe...)
  - Creates initial commit
