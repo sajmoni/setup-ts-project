@@ -12,14 +12,22 @@
     "dist/"
   ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "prettier": "prettier-config-one",
   "devDependencies": {
     "prettier": "2.8.4",
-    "prettier-config-one": "0.1.1"
+    "prettier-config-one": "0.1.1",
+    "tsconfig-one": "0.0.4",
+    "typescript": "5.0.2",
+    "vitest": "0.29.7"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "chalk": "5.2.0",
+    "execa": "7.1.1"
   }
 }
