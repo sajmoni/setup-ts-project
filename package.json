@@ -15,7 +15,7 @@
     "build": "tsc",
     "go": "npm run build && preview && rm -rf example && mkdir example && cd example && setup-ts-project",
     "go-test": "npm run build && preview && npm test",
-    "release": "np",
+    "release": "np --no-tests",
     "test": "vitest"
   },
   "prettier": "prettier-config-one",
@@ -35,6 +35,6 @@
     "vitest": "0.29.8"
   },
   "engines": {
-    "node": ">18"
+    "node": ">=18"
   }
 }
