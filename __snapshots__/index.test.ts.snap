@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`setup-ts-project 1`] = `
+"
+[34m setup-ts-project[39m
+
+ please wait...
+
+
+[32m project initialized![39m
+"
+`;

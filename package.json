@@ -13,15 +13,18 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go": "npm run build && preview && npm run test",
+    "test": "vitest"
   },
   "prettier": "prettier-config-one",
   "devDependencies": {
-    "prettier": "2.8.4",
+    "package-preview": "4.0.0",
+    "prettier": "2.8.7",
     "prettier-config-one": "0.1.1",
+    "tempy": "3.0.0",
     "tsconfig-one": "0.0.4",
     "typescript": "5.0.2",
-    "vitest": "0.29.7"
+    "vitest": "0.29.8"
   },
   "engines": {
     "node": ">=18"
