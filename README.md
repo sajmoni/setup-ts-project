@@ -17,7 +17,7 @@
 
 First create a repository on Github and clone it
 
-Then navigate to the project run:
+Then navigate to the project and run:
 
 ```sh
 npx setup-ts-project@latest
