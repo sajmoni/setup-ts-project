@@ -13,10 +13,10 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "go": "npm run build && preview && rm -rf example && mkdir example && cd example && setup-ts-project",
     "go-test": "npm run build && preview && npm test",
-    "release": "np --no-tests",
+    "release": "npm run build && np --no-tests",
     "test": "vitest"
   },
   "prettier": "prettier-config-one",
