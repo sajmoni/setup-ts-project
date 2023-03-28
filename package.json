@@ -13,11 +13,17 @@
   ],
   "scripts": {
     "build": "tsc",
-    "go": "npm run build && preview && npm run test",
-    "test": "vitest",
-    "release": "np"
+    "go": "npm run build && preview && rm -rf example && mkdir example && cd example && setup-ts-project",
+    "go-test": "npm run build && preview && npm test",
+    "release": "np",
+    "test": "vitest"
   },
   "prettier": "prettier-config-one",
+  "dependencies": {
+    "chalk": "5.2.0",
+    "execa": "7.1.1",
+    "tasuku": "2.0.1"
+  },
   "devDependencies": {
     "np": "7.6.4",
     "package-preview": "4.0.0",
@@ -29,10 +35,6 @@
     "vitest": "0.29.8"
   },
   "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "chalk": "5.2.0",
-    "execa": "7.1.1"
+    "node": ">18"
   }
 }
