@@ -14,10 +14,12 @@
   "scripts": {
     "build": "tsc",
     "go": "npm run build && preview && npm run test",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "np"
   },
   "prettier": "prettier-config-one",
   "devDependencies": {
+    "np": "7.6.4",
     "package-preview": "4.0.0",
     "prettier": "2.8.7",
     "prettier-config-one": "0.1.1",
