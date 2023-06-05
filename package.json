@@ -26,14 +26,14 @@
     "tasuku": "2.0.1"
   },
   "devDependencies": {
-    "np": "7.6.4",
+    "np": "8.0.2",
     "package-preview": "4.0.0",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "prettier-config-one": "0.1.1",
     "tempy": "3.0.0",
     "tsconfig-one": "0.0.4",
-    "typescript": "5.0.2",
-    "vitest": "0.29.8"
+    "typescript": "5.1.3",
+    "vitest": "0.31.4"
   },
   "engines": {
     "node": ">=18"
