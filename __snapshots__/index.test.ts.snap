@@ -1,0 +1,934 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`setup-ts-project 1`] = `
+"
+[34m[1m setup-ts-project[22m[39m
+
+[33m⠋[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠙[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠹[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠸[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠼[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠏[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠋[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠙[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠹[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠸[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠼[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠏[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠋[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠙[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠹[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠸[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠼[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠏[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠋[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠙[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠹[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠸[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠼[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠏[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠋[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠙[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠹[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠸[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠼[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
+[90m◼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠴[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠦[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠧[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠇[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠏[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠋[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠙[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠹[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠸[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[33m⠼[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[90m◼[39m create .gitignore
+[90m◼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠴[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠦[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠧[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠇[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠏[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠋[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠙[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠹[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠸[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[33m⠼[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[33m⠋[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m project initialized![39m
+[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create commit"
+`;

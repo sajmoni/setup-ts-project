@@ -14,10 +14,8 @@
   ],
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "go": "npm run build && preview && rm -rf example && mkdir example && cd example && setup-ts-project",
-    "go-test": "npm run build && preview && npm test",
-    "release": "npm run build && np --no-tests",
-    "test": "vitest"
+    "test": "npm run build && chmod +x dist/index.js && vitest",
+    "release": "npm run build && np --no-tests"
   },
   "prettier": "prettier-config-one",
   "dependencies": {
@@ -26,8 +24,8 @@
     "tasuku": "2.0.1"
   },
   "devDependencies": {
+    "get-bin-path": "10.0.0",
     "np": "8.0.2",
-    "package-preview": "4.0.0",
     "prettier": "2.8.8",
     "prettier-config-one": "0.1.1",
     "tempy": "3.0.0",
