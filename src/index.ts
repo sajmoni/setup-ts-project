@@ -14,7 +14,6 @@ console.log(chalk.blue.bold(' setup-ts-project'))
 console.log()
 
 async function createCommit() {
-  await execa('git', ['init'])
   await execa('git', ['add', '.'])
   await execa('git', [
     'commit',
