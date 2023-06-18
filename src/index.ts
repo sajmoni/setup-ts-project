@@ -4,6 +4,18 @@ import chalk from 'chalk'
 import { execa } from 'execa'
 import { promises as fs } from 'fs'
 import task from 'tasuku'
+import cac from 'cac'
+
+import packageJson from '../package.json' assert { type: 'json' }
+
+const cli = cac()
+
+cli.option('--skip-commit', 'Do not create a commit', {
+  default: false,
+})
+cli.help()
+cli.version(packageJson.version)
+const parsed = cli.parse()
 
 const templateGitignore = `node_modules
 dist
@@ -35,9 +47,18 @@ await task.group((task) => [
   task('setup-prettier', async () => {
     await execa('npx', ['setup-prettier@latest', '--yes'])
   }),
-  task('create commit', async () => {
-    await createCommit()
-  }),
+  task(
+    !parsed.options['skipCommit']
+      ? 'create commit'
+      : 'create commit (will skip)',
+    async ({ setTitle }) => {
+      if (!parsed.options['skipCommit']) {
+        await createCommit()
+      } else {
+        setTitle('create commit - skipped!')
+      }
+    },
+  ),
 ])
 
 // TODO: Render after (https://github.com/privatenumber/tasuku/issues/16)
