@@ -19,7 +19,7 @@ const parsed = cli.parse()
 
 const templateGitignore = `node_modules
 dist
-DS_Store
+.DS_Store
 .eslintcache
 .stylelintcache
 tsconfig.tsbuildinfo
