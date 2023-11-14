@@ -5,6 +5,10 @@
   "keywords": [
     "TypeScript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajmoni/setup-ts-project.git"
+  },
   "license": "MIT",
   "author": "sajmoni",
   "type": "module",
