@@ -5,8 +5,13 @@ import { execa } from 'execa'
 import { promises as fs } from 'fs'
 import task from 'tasuku'
 import cac from 'cac'
+import writePrettyFile from 'write-pretty-file'
+import { readPackage } from 'read-pkg'
+import sortPackageJson from 'sort-package-json'
+import { writePackage } from 'write-pkg'
 
 import packageJson from '../package.json' assert { type: 'json' }
+import testTemplate from './testTemplate.js'
 
 const cli = cac()
 
@@ -50,6 +55,32 @@ await task.group((task) => [
   }),
   task('setup-prettier', async () => {
     await execa('npx', ['setup-prettier@latest', '--yes'])
+  }),
+  task('create source file', async () => {
+    writePrettyFile('src/index.ts', '')
+  }),
+  task('add tests', async () => {
+    await execa('npm', ['install', 'vitest', '--save-dev'])
+    writePrettyFile('index.test.ts', testTemplate)
+
+    const packageJson = await readPackage({
+      normalize: false,
+    })
+
+    const updatedPackageJson = sortPackageJson({
+      ...packageJson,
+      scripts: packageJson.scripts
+        ? {
+            ...packageJson.scripts,
+            test: 'vitest',
+          }
+        : {
+            test: 'vitest',
+          },
+    })
+
+    // @ts-expect-error - sort-package-json doesn't return a compatible type
+    await writePackage(updatedPackageJson)
   }),
   task(
     !parsed.options['skipCommit']

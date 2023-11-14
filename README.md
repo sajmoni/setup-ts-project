@@ -8,10 +8,11 @@
 - Runs [`setup-prettier`](https://github.com/sajmoni/setup-prettier)
 - Runs [`setup-typescript`](https://github.com/sajmoni/setup-typescript)
 - Adds a gitignore
-- Creates initial commit
+- Adds source and test files
 - Adds a simple readme (todo)
 - Adds test (todo)
 - Adds eslint (todo)
+- Creates initial commit
 
 ## Usage
 

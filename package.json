@@ -22,7 +22,11 @@
     "cac": "6.7.14",
     "chalk": "5.3.0",
     "execa": "8.0.1",
-    "tasuku": "2.0.1"
+    "read-pkg": "9.0.0",
+    "sort-package-json": "2.6.0",
+    "tasuku": "2.0.1",
+    "write-pkg": "7.0.0",
+    "write-pretty-file": "0.0.2"
   },
   "devDependencies": {
     "get-bin-path": "11.0.0",
