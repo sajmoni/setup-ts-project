@@ -10,15 +10,14 @@
 - Adds a gitignore
 - Adds source and test files
 - Adds a simple readme (todo)
-- Adds test (todo)
 - Adds eslint (todo)
 - Creates initial commit
 
 ## Usage
 
-First create a repository on Github and clone it
+1. Create a repository on `GitHub` and clone it
 
-Then navigate to the project and run:
+2. Navigate to the project and run:
 
 ```console
 npx setup-ts-project@latest
