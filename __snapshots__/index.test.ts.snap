@@ -186,27 +186,6 @@ exports[`setup-ts-project 1`] = `
 [90m◼[39m create source file
 [90m◼[39m add tests
 [90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [90m◼[39m setup-typescript
 [90m◼[39m create .gitignore
@@ -453,27 +432,6 @@ exports[`setup-ts-project 1`] = `
 [90m◼[39m add tests
 [90m◼[39m create commit
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠴[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠦[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
 [32m✔[39m create .gitignore
 [33m⠋[39m setup-prettier
@@ -757,27 +715,6 @@ exports[`setup-ts-project 1`] = `
 [32m✔[39m setup-typescript
 [32m✔[39m create .gitignore
 [33m⠋[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠙[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠹[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠸[39m setup-prettier
 [90m◼[39m create source file
 [90m◼[39m add tests
 [90m◼[39m create commit
@@ -934,6 +871,13 @@ exports[`setup-ts-project 1`] = `
 [32m✔[39m setup-prettier
 [32m✔[39m create source file
 [33m⠋[39m add tests
+[90m◼[39m create commit
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create source file
+[33m⠙[39m add tests
 [90m◼[39m create commit
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
@@ -1153,34 +1097,6 @@ exports[`skip commit 1`] = `
 [90m◼[39m create source file
 [90m◼[39m add tests
 [90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠴[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠦[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠧[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[33m⠇[39m npm-init-ex
-[90m◼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [90m◼[39m setup-typescript
 [90m◼[39m create .gitignore
@@ -1420,27 +1336,6 @@ exports[`skip commit 1`] = `
 [90m◼[39m add tests
 [90m◼[39m create commit (will skip)
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠸[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠼[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[33m⠴[39m setup-typescript
-[90m◼[39m create .gitignore
-[90m◼[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
 [90m◼[39m create .gitignore
 [90m◼[39m setup-prettier
@@ -1716,35 +1611,7 @@ exports[`skip commit 1`] = `
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
 [32m✔[39m create .gitignore
-[33m⠇[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠏[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠋[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠙[39m setup-prettier
-[90m◼[39m create source file
-[90m◼[39m add tests
-[90m◼[39m create commit (will skip)
-[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
-[32m✔[39m setup-typescript
-[32m✔[39m create .gitignore
-[33m⠹[39m setup-prettier
+[32m✔[39m setup-prettier
 [90m◼[39m create source file
 [90m◼[39m add tests
 [90m◼[39m create commit (will skip)
@@ -1894,6 +1761,13 @@ exports[`skip commit 1`] = `
 [32m✔[39m setup-prettier
 [32m✔[39m create source file
 [33m⠋[39m add tests
+[90m◼[39m create commit (will skip)
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create source file
+[33m⠙[39m add tests
 [90m◼[39m create commit (will skip)
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
@@ -1901,7 +1775,7 @@ exports[`skip commit 1`] = `
 [32m✔[39m setup-prettier
 [32m✔[39m create source file
 [32m✔[39m add tests
-[32m✔[39m create commit - skipped!
+[90m◼[39m create commit (will skip)
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m project initialized![39m
 [32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
@@ -1909,9 +1783,16 @@ exports[`skip commit 1`] = `
 [32m✔[39m setup-prettier
 [32m✔[39m create source file
 [32m✔[39m add tests
-[32m✔[39m create commit - skipped!
+[90m◼[39m create commit (will skip)
 [2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
 [32m✔[39m npm-init-ex
+[32m✔[39m setup-typescript
+[32m✔[39m create .gitignore
+[32m✔[39m setup-prettier
+[32m✔[39m create source file
+[32m✔[39m add tests
+[90m◼[39m create commit (will skip)
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[32m✔[39m npm-init-ex
 [32m✔[39m setup-typescript
 [32m✔[39m create .gitignore
 [32m✔[39m setup-prettier
