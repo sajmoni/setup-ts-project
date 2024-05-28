@@ -10,7 +10,7 @@ import { readPackage } from 'read-pkg'
 import sortPackageJson from 'sort-package-json'
 import { writePackage } from 'write-pkg'
 
-import packageJson from '../package.json' assert { type: 'json' }
+import packageJson from '../package.json' with { type: 'json' }
 import testTemplate from './testTemplate.js'
 
 const cli = cac()
