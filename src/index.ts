@@ -69,8 +69,9 @@ await task.group((task) => [
 
     const updatedPackageJson = sortPackageJson({
       ...packageJson,
-      scripts: packageJson.scripts
-        ? {
+      scripts:
+        packageJson.scripts ?
+          {
             ...packageJson.scripts,
             test: 'vitest',
           }
@@ -83,9 +84,9 @@ await task.group((task) => [
     await writePackage(updatedPackageJson)
   }),
   task(
-    !parsed.options['skipCommit']
-      ? 'create commit'
-      : 'create commit (will skip)',
+    !parsed.options['skipCommit'] ?
+      'create commit'
+    : 'create commit (will skip)',
     async ({ setTitle }) => {
       if (!parsed.options['skipCommit']) {
         await createCommit()
