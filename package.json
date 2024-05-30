@@ -25,22 +25,23 @@
   "dependencies": {
     "cac": "6.7.14",
     "chalk": "5.3.0",
-    "execa": "8.0.1",
+    "execa": "9.1.0",
     "read-pkg": "9.0.1",
-    "sort-package-json": "2.6.0",
+    "sort-package-json": "2.10.0",
     "tasuku": "2.0.1",
     "write-pkg": "7.0.0",
     "write-pretty-file": "0.2.0"
   },
   "devDependencies": {
+    "@types/node": "20.12.13",
     "get-bin-path": "11.0.0",
-    "np": "9.2.0",
-    "prettier": "3.2.4",
-    "prettier-config-one": "0.2.0",
+    "np": "10.0.5",
+    "prettier": "3.2.5",
+    "prettier-config-one": "0.2.1",
     "tempy": "3.1.0",
-    "tsconfig-one": "0.0.8",
-    "typescript": "5.3.3",
-    "vitest": "1.2.0"
+    "tsconfig-one": "0.0.9",
+    "typescript": "5.4.5",
+    "vitest": "1.6.0"
   },
   "engines": {
     "node": ">=22"
