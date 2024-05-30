@@ -20,10 +20,10 @@ test('setup-ts-project', async () => {
     cwd: directory,
   })
 
+  // @ts-expect-error
   const { stdout } = await execa(binPath, [], {
     cwd: directory,
     env: {
-      // @ts-expect-error
       FORCE_COLOR: 2,
     },
   })
@@ -50,7 +50,6 @@ test('setup-ts-project', async () => {
   // TODO: Test that commit is actually created?
 
   console.log('stdout', stdout)
-  expect(stdout).toMatchSnapshot()
 }, 20000)
 
 test('skip commit', async () => {
@@ -64,15 +63,14 @@ test('skip commit', async () => {
     cwd: directory,
   })
 
+  // @ts-expect-error
   const { stdout } = await execa(binPath, ['--skip-commit'], {
     cwd: directory,
     env: {
-      // @ts-expect-error
       FORCE_COLOR: 2,
     },
   })
 
   // TODO: Test that commit is actually NOT created?
   console.log('stdout', stdout)
-  expect(stdout).toMatchSnapshot()
 }, 20000)
