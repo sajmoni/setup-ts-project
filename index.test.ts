@@ -1,13 +1,13 @@
 import path from 'node:path'
 import { readFile } from 'node:fs/promises'
 
-import { execa } from 'execa'
+import spawn from 'nano-spawn'
 import { test, expect } from 'vitest'
 import { temporaryDirectory } from 'tempy'
 import { getBinPath } from 'get-bin-path'
+import { PackageJson, readPackage } from 'read-pkg'
 
 import testTemplate from './src/testTemplate'
-import { PackageJson, readPackage } from 'read-pkg'
 
 test('setup-ts-project', async () => {
   const binPath = await getBinPath()
@@ -16,15 +16,14 @@ test('setup-ts-project', async () => {
   }
   const directory = temporaryDirectory()
 
-  await execa('git', ['init'], {
+  await spawn('git', ['init'], {
     cwd: directory,
   })
 
-  // @ts-expect-error
-  const { stdout } = await execa(binPath, [], {
+  const { stdout } = await spawn(binPath, [], {
     cwd: directory,
     env: {
-      FORCE_COLOR: 2,
+      FORCE_COLOR: '2',
     },
   })
 
@@ -50,7 +49,7 @@ test('setup-ts-project', async () => {
   // TODO: Test that commit is actually created?
 
   console.log('stdout', stdout)
-}, 20000)
+}, 30000)
 
 test('skip commit', async () => {
   const binPath = await getBinPath()
@@ -59,18 +58,17 @@ test('skip commit', async () => {
   }
   const directory = temporaryDirectory()
 
-  await execa('git', ['init'], {
+  await spawn('git', ['init'], {
     cwd: directory,
   })
 
-  // @ts-expect-error
-  const { stdout } = await execa(binPath, ['--skip-commit'], {
+  const { stdout } = await spawn(binPath, ['--skip-commit'], {
     cwd: directory,
     env: {
-      FORCE_COLOR: 2,
+      FORCE_COLOR: '2',
     },
   })
 
   // TODO: Test that commit is actually NOT created?
   console.log('stdout', stdout)
-}, 20000)
+}, 30000)

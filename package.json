@@ -24,12 +24,11 @@
   "prettier": "prettier-config-one",
   "dependencies": {
     "cac": "6.7.14",
-    "chalk": "5.4.1",
-    "execa": "9.5.2",
+    "nano-spawn": "0.2.0",
     "read-pkg": "9.0.1",
     "sort-package-json": "2.14.0",
     "tasuku": "2.0.1",
-    "write-pkg": "7.0.0",
+    "write-package": "7.1.0",
     "write-pretty-file": "0.2.0"
   },
   "devDependencies": {
